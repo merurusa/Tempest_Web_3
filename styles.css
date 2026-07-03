@@ -788,6 +788,15 @@ a {
   box-shadow: 0 16px 42px rgba(0, 0, 0, 0.32);
 }
 
+.shop-action-links .action-card > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
 .shop-action-links .action-card::before {
   content: "";
   position: absolute;
@@ -811,7 +820,7 @@ a {
 .shop-action-links .action-card span,
 .shop-action-links .action-card small {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .shop-action-links .action-card span {
@@ -1785,5 +1794,6 @@ a {
 .shop-banner.charme { --shop-a:#130b18; --shop-b:#5d287a; }
 .shop-banner.strive { --shop-a:#070b13; --shop-b:#4e5d72; }
 .shop-banner.ebichan { --shop-a:#f5eee2; --shop-b:#a63322; }
+
 
 
