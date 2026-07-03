@@ -1771,3 +1771,18 @@ a {
 
 
 
+
+
+
+
+/* Ultra-light upload fallback */
+.hero-image, .shop-banner img { display: none; }
+.hero, .shop-banner { background: linear-gradient(135deg, var(--shop-a, #151019), var(--shop-b, #3b2a44)); }
+.top-hero { background: radial-gradient(circle at 50% 20%, rgba(216,173,98,.34), transparent 34%), linear-gradient(160deg, #07080d, #20121e 52%, #08070a); }
+.shop-banner.various { --shop-a:#101621; --shop-b:#203d73; }
+.shop-banner.solomon { --shop-a:#fff4f8; --shop-b:#e7a1bd; }
+.shop-banner.lively { --shop-a:#100809; --shop-b:#7d1720; }
+.shop-banner.charme { --shop-a:#130b18; --shop-b:#5d287a; }
+.shop-banner.strive { --shop-a:#070b13; --shop-b:#4e5d72; }
+.shop-banner.ebichan { --shop-a:#f5eee2; --shop-b:#a63322; }
+
