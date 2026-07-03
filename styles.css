@@ -797,6 +797,10 @@ a {
   z-index: 0;
 }
 
+.shop-action-links .action-card > img.is-missing {
+  display: none;
+}
+
 .shop-action-links .action-card::before {
   content: "";
   position: absolute;
@@ -1794,6 +1798,7 @@ a {
 .shop-banner.charme { --shop-a:#130b18; --shop-b:#5d287a; }
 .shop-banner.strive { --shop-a:#070b13; --shop-b:#4e5d72; }
 .shop-banner.ebichan { --shop-a:#f5eee2; --shop-b:#a63322; }
+
 
 
 
